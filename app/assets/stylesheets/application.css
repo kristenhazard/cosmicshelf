@@ -11,3 +11,55 @@
  *= require_self
  *= require_tree .
 */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Bookshelf styling */
+
+.bookshelf {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('/assets/shelf_background.jpg');
+  width: 1024px;
+  padding: 0;
+}
+
+.bookshelf_walls {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/shelf_walls.png');
+  width: 1024px;
+}
+
+.bookshelf_row {
+  margin: 0;
+  padding: 0;
+  padding-left: 32px;
+  background-image: url('/assets/shelf_row.png');
+  width: 992px;
+  min-height: 252px;
+}
+
+.bookshelf_under_shadow {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/shelf_under_shadow.png');
+  width: 1024px;
+  min-height: 85px;
+}
+
+.book {
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  background-image: url('/assets/book_shadow.png');
+  width: 192px;
+  height: 227px;
+}
