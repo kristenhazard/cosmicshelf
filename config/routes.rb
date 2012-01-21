@@ -1,4 +1,7 @@
 Cosmicshelf::Application.routes.draw do
+  get "bookshelf/index"
+  root :to => 'bookshelf#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
