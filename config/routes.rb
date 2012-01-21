@@ -1,4 +1,6 @@
 Cosmicshelf::Application.routes.draw do
+  get "pubnubexperiment/index"
+
   get "bookshelf/index"
   root :to => 'bookshelf#index'
   
