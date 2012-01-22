@@ -10,11 +10,11 @@ $(function () {
     function displayBooks() {
         $book_rows = $('div.book');
         $book_rows.each(function (index) {
-        //console.log($(this).find('img'));
-        $current_img = $(this).find('img')[0];
-        $current_img.src = books_o["books"][index]["cover_url"];
-        $current_img.setAttribute('data-index', index);
-        $current_img.style.visibility = 'visible';
+            //console.log($(this).find('img'));
+            $current_img = $(this).find('img')[0];
+            $current_img.src = books_o["books"][index]["cover_url"];
+            $current_img.setAttribute('data-index', index);
+            $current_img.style.visibility = 'visible';
         });
     }
 
@@ -35,33 +35,33 @@ $(function () {
 
     function sortAuthor() {
         books_o.books.sort(function (a, b) {
-          a = a.author,
+            a = a.author,
           b = b.author;
-          return a.localeCompare(b);
+            return a.localeCompare(b);
         });
     };
 
     function sortTitle(a, b) {
         books_o.books.sort(function (a, b) {
-          a = a.title,
+            a = a.title,
           b = b.title;
-        return a.localeCompare(b);
+            return a.localeCompare(b);
         });
     };
 
     function sortGenre(a, b) {
         books_o.books.sort(function (a, b) {
-          a = a.genre,
+            a = a.genre,
           b = b.genre;
-          return a.localeCompare(b);
+            return a.localeCompare(b);
         });
     };
 
     function sortPubDate(a, b) {
         books_o.books.sort(function (a, b) {
-          a = a.published_date,
+            a = a.published_date,
           b = b.published_date;
-          return a.localeCompare(b);
+            return a.localeCompare(b);
         });
     };
 
@@ -85,9 +85,20 @@ $(function () {
         $('#book-detail-cover').find('img')[0].src = book.cover_url;
         $('#book-detail').fadeIn();
     }
-    
+
+    function showSearch() {
+        $('#search-detail-icon').fadeIn();
+        $('#search-detail-title').text('Title');
+        $('#search-detail-author').text('Author');
+        $('#search-detail-desc').text('Description');
+        $('#search-detail-genre').text('Genre');
+        $('#search-detail-pubdate').text('Publication Date');
+        $('#search-detail-termbox').visible = true;
+        $('#search-detail').fadeIn();
+    }
+
     function hideBook() {
-      $('#book-detail').fadeOut('slow');
+        $('#book-detail').fadeOut('slow');
     }
 
     $('#sort-icon-author').click(function () {
@@ -113,12 +124,22 @@ $(function () {
     $('#show-book').click(function () {
         showBook();
     });
-    
-    $('#hide-book').click(function() {
-      hideBook();
+
+    $('#hide-book').click(function () {
+        hideBook();
     });
 
-    $('#search-books').click(function () {
+    $('#search-icon').click(function () {
+        showSearch();
+    });
+
+    $('#search-detail-termBox').click(function () {
+        $('#search-detail-termBox-term').text('Kingsolver');
+    });
+
+    $('#search-detail-icon').click(function () {
+        $('#search-detail').fadeOut('slow');
+        $('#search-detail-termBox-term').text('');
         var booksFiltered = filterByAuthor(books_o, filterForAuthor);
         displayFilteredBooks(booksFiltered);
     });

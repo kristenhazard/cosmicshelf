@@ -136,3 +136,38 @@ body {
   float: left;
   margin-left: 65px;
 }
+
+#search-detail {
+  display: none;
+  font-size: 30px;
+  text-align: right;
+  padding: 30px;
+  margin-right: auto;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  z-index: 100;
+  position: relative;
+  top: -500px;
+  left: 160px;
+  opacity: 0.9;
+  color: black;
+}
+
+#search-detail-termBox {
+  background-color: Blue;
+  width: 350px;
+  height: 100px;
+  z-index: 50;
+  position: relative;
+  float: right;
+  margin-right:50px;
+  margin-bottom:50px;
+}
+
+#search-detail-termBox-term {
+  font-size: 40px;
+  color: Yellow;
+  text-align: center;
+  margin-top:20px;
+}
