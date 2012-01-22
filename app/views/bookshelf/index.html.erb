@@ -34,8 +34,12 @@
     </div>
   </div>
   <div class="control_panel">
-    <%= image_tag "icon_search.png" %><br />
-    <%= image_tag "icon_sort.png", :id => "sort-icon" %>
+    <div id="search-space"> 
+       <%= image_tag "icon_search.png", :id  => "search-icon" %>
+    </div>
+    <div id="sort-space">
+      <%= image_tag "icon_sort.png", :id => "sort-icon" %>
+    </div>
   </div>
   <div class="sort-control-panel">
     <div id="sort-icon-author">author</div>
@@ -56,5 +60,18 @@
     <div id="book-detail-desc"></div>
     <div id="book-detail-genre"></div>
     <div id="book-detail-pubdate"></div>
+  </div>
+  <div id="search-detail">
+    <div id="search-detail-icon">
+      <%= image_tag "icon_search.png", :id  => "search-detail-icon" %>
+    </div>
+    <div id="search-detail-title"></div>
+    <div id="search-detail-author"></div>
+    <div id="search-detail-desc"></div>
+    <div id="search-detail-genre"></div>
+    <div id="search-detail-pubdate"></div>
+    <div id="search-detail-termBox">
+      <div id="search-detail-termBox-term"></div>
+    </div>
   </div>
 </div>
