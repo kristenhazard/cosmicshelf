@@ -85,6 +85,10 @@ $(function () {
         $('#book-detail-cover').find('img')[0].src = book.cover_url;
         $('#book-detail').fadeIn();
     }
+    
+    function hideBook() {
+      $('#book-detail').fadeOut('slow');
+    }
 
     $('#sort-icon-author').click(function () {
         sortAuthor();
