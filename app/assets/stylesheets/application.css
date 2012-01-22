@@ -52,15 +52,15 @@ body {
   padding: 0;
   background-image: url('/assets/shelf_walls.png');
   width: 1024px;
+  height: 756px;
 }
 
 .bookshelf_row {
   margin: 0;
   padding: 0;
-  padding-left: 32px;
   background-image: url('/assets/shelf_row.png');
-  width: 992px;
-  min-height: 252px;
+  width: 1024px;
+  height: 252px;
 }
 
 .bookshelf_under_shadow {
@@ -71,12 +71,55 @@ body {
   min-height: 85px;
 }
 
+.bookshelf_slide {
+  /* iPhoneSlide */
+  position: relative;
+  width: 1024px;
+  height: 252px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.bookshelf_handler {
+  /* iphoneSlide */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 252px;
+}
+
+.bookshelf_page {
+  /* iphoneSlide */
+  float: left;
+  display: none;
+  cursor: pointer;
+  width: 1024px;
+  height: 252px;
+}
+
+.book_end {
+  float: left;
+  width: 32px;
+  height: 252px;
+}
+
 .book {
   float: left;
   margin: 0;
   padding: 0;
   padding-top: 50px;
-  background-image: url('/assets/book_shadow.png');
+  /*background-image: url('/assets/book_shadow.png');*/
   width: 192px;
   height: 202px;
+  cursor: pointer;
+}
+
+.book img {
+  -o-box-shadow:      0px -10px 45px #000;
+  -icab-box-shadow:   0px -10px 45px #000;
+  -khtml-box-shadow:  0px -10px 45px #000;
+  -moz-box-shadow:    0px -10px 45px #000;
+  -webkit-box-shadow: 0px -10px 45px #000;
+  box-shadow:         0px -10px 45px #000;
 }
