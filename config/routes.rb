@@ -2,7 +2,8 @@ Cosmicshelf::Application.routes.draw do
   get "pubnubexperiment/index"
 
   get "bookshelf/index"
-  root :to => 'bookshelf#index'
+  get "bookshelf/show"
+  root :to => 'bookshelf#show'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
