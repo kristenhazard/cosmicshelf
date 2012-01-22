@@ -146,7 +146,7 @@ var books_o = {
       "author": "Barbara Kingsolver",
       "genre":  "Fiction",
       "published_date": "2009",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/09rhr22?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://ecx.images-amazon.com/images/I/51CfSWL432L._SL160_.jpg"
     },
     {
       "title":  "The Poisonwood Bible",
