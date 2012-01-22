@@ -90,6 +90,11 @@ body {
   position: relative;
   top: -500px;
   left: 160px;
-  opacity: 0.8;
+  opacity: 0.9;
   color: black;
+}
+
+#book-detail-cover {
+  float: left;
+  margin-left:50px;
 }

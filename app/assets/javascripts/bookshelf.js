@@ -47,13 +47,17 @@ $(function () {
   };
   
   function showBook() {
-    var book = books_o["books"][0];
-    $('#book-detail-author').text(book.author);
+    var book = books_o["books"][9];
+    $('#book-detail-author').text("by " + book.author);
     $('#book-detail-genre').text(book.genre);
     $('#book-detail-pubdate').text(book.published_date);
     $('#book-detail-title').text(book.title);
     $('#book-detail-cover').find('img')[0].src = book.cover_url;
-    $('#book-detail').fadeIn();
+    $('#book-detail').fadeIn('slow');
+  }
+  
+  function hideBook() {
+    $('#book-detail').fadeOut('slow');
   }
   
   $('#sort-icon-author').click(function() {
@@ -80,6 +84,9 @@ $(function () {
     showBook();
   });
   
+  $('#hide-book').click(function() {
+    hideBook();
+  });
   
   
   // LISTEN FOR MESSAGES
