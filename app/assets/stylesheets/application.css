@@ -137,3 +137,7 @@ body {
   opacity: 0.8;
   color: black;
 }
+
+#nextPage {
+  z-index: -99;
+}

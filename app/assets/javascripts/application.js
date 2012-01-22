@@ -19,7 +19,7 @@ $(document).ready(function() {
   $('#slide1').iphoneSlide({
     handler: ".bookshelf_handler",
     pageHandler: ".bookshelf_page",
-    autoPlay: false,
+    autoPlay: true,
     bounce: false
   });
   
