@@ -28,13 +28,17 @@ body {
 }
 
 .control_panel {
-  margin-top: 272px;
+  margin-top: 146px;
   padding-left: 20px;
   float: left;
 }
 
 .control_panel img {
   margin-bottom: 64px;
+}
+
+.show-book-control-panel {
+  padding-left: 20px;
 }
 
 /* Bookshelf styling */
@@ -100,13 +104,30 @@ body {
 
 #book-detail {
   display: none;
-  background-color: white;
+  background-color:rgba(255,255,255,0.9);
   width: 700px;
   height: 400px;
   z-index: 100;
   position: relative;
   top: -500px;
   left: 160px;
-  opacity: 0.8;
+  margin-top: 25px;
   color: black;
+  -o-box-shadow:      0px 0px 50px #000;
+  -icab-box-shadow:   0px 0px 50px #000;
+  -khtml-box-shadow:  0px 0px 50px #000;
+  -moz-box-shadow:    0px 0px 50px #000;
+  -webkit-box-shadow: 0px 0px 50px #000;
+  box-shadow:         0px 0px 50px #000;
+}
+
+#book-detail img {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  -o-box-shadow:      0px 0px 25px #000;
+  -icab-box-shadow:   0px 0px 25px #000;
+  -khtml-box-shadow:  0px 0px 25px #000;
+  -moz-box-shadow:    0px 0px 25px #000;
+  -webkit-box-shadow: 0px 0px 25px #000;
+  box-shadow:         0px 0px 25px #000;
 }
