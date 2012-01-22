@@ -109,9 +109,9 @@ body {
   height: 400px;
   z-index: 100;
   position: relative;
-  top: -500px;
+  top: 160px;
   left: 160px;
-  margin-top: -45px;
+  margin-top: 0px;
   color: black;
   -o-box-shadow:      0px 0px 50px #000;
   -icab-box-shadow:   0px 0px 50px #000;
@@ -132,9 +132,14 @@ body {
   box-shadow:         0px 0px 25px #000;
 }
 
-#book-detail-cover {
-  float: left;
-  margin-left: 65px;
+#book-detail-cover, 
+#book-detail-title,
+#book-detail-author,
+#book-detail-desc,
+#book-detail-genre,
+#book-detail-pubdate {
+  width: 100px;
+  height: 20px;
 }
 
 #search-detail {

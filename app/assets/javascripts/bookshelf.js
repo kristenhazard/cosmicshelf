@@ -83,7 +83,7 @@ $(function () {
         $('#book-detail-pubdate').text(book.published_date);
         $('#book-detail-title').text(book.title);
         $('#book-detail-cover').find('img')[0].src = book.cover_url;
-        $('#book-detail').fadeIn();
+        $('#book-detail').fadeToggle();
     }
 
     function showSearch() {
@@ -94,11 +94,7 @@ $(function () {
         $('#search-detail-genre').text('Genre');
         $('#search-detail-pubdate').text('Publication Date');
         $('#search-detail-termbox').visible = true;
-        $('#search-detail').fadeIn();
-    }
-
-    function hideBook() {
-        $('#book-detail').fadeOut('slow');
+        $('#search-detail').fadeToggle();
     }
 
     $('#sort-icon-author').click(function () {
