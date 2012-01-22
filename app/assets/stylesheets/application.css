@@ -20,14 +20,31 @@ body {
   text-align: center;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 1108px;
+}
+
+.control_panel {
+  margin-top: 272px;
+  padding-left: 20px;
+  float: left;
+}
+
+.control_panel img {
+  margin-bottom: 64px;
+}
+
 /* Bookshelf styling */
 
 .bookshelf {
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin: 0;
+  padding: 0;
   background-image: url('/assets/shelf_background.jpg');
   width: 1024px;
-  padding: 0;
 }
 
 .bookshelf_walls {
@@ -58,8 +75,8 @@ body {
   float: left;
   margin: 0;
   padding: 0;
-  padding-top: 25px;
+  padding-top: 50px;
   background-image: url('/assets/book_shadow.png');
   width: 192px;
-  height: 227px;
+  height: 202px;
 }
