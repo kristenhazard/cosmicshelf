@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="control_panel">
-    <%= image_tag "icon_search_telescope.png" %><br />
+    <%= image_tag "icon_search_telescope.png", :id  => "search-icon" %><br />
     <%= image_tag "icon_show_book_planet.png", :id => "show-book" %><br />
     <%= image_tag "icon_sort_galaxy.png", :id => "sort-icon" %>
   </div>
@@ -56,5 +56,18 @@
     <div id="book-detail-desc"></div>
     <div id="book-detail-genre"></div>
     <div id="book-detail-pubdate"></div>
+  </div>
+  <div id="search-detail">
+    <div id="search-detail-icon">
+      <%= image_tag "icon_search.png", :id  => "search-detail-icon" %>
+    </div>
+    <div id="search-detail-title"></div>
+    <div id="search-detail-author"></div>
+    <div id="search-detail-desc"></div>
+    <div id="search-detail-genre"></div>
+    <div id="search-detail-pubdate"></div>
+    <div id="search-detail-termBox">
+      <div id="search-detail-termBox-term"></div>
+    </div>
   </div>
 </div>
