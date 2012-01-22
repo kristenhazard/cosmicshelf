@@ -14,6 +14,22 @@ $(function () {
             $current_img = $(this).find('img')[0];
             $current_img.src = books_o["books"][index]["cover_url"];
             $current_img.setAttribute('data-index', index);
+            $current_img.style.visibility = 'visible';
+        });
+    }
+
+    function displayFilteredBooks(filteredBooks) {
+        $book_rows = $('div.book');
+        $book_rows.each(function (index) {
+            if (filteredBooks.length > index) {
+                $current_img = $(this).find('img')[0];
+                $current_img.src = filteredBooks[index]["cover_url"];
+                $current_img.setAttribute('data-index', index);
+            }
+            else {
+                $current_img = $(this).find('img')[0];
+                $current_img.style.visibility = 'hidden';
+            }
         });
     }
 
@@ -94,6 +110,27 @@ $(function () {
         showBook();
     });
 
+    $('#search-books').click(function () {
+        var booksFiltered = filterByAuthor(books_o, filterForAuthor);
+        displayFilteredBooks(booksFiltered);
+    });
+
+    function filterByAuthor(allBooks, filterOfAuthor) {
+        return $(allBooks.books).filter(function (index, item) {
+            for (var i in filterOfAuthor) {
+                if (!item[i].toString().match(filterOfAuthor[i])) return null;
+            }
+            return item;
+        });
+    }
+
+    var filterForAuthor = {
+        "title": new RegExp('(.*?)', 'gi'),
+        "author": new RegExp('Kingsolver', 'gi'),
+        "genre": new RegExp('(.*?)', 'gi'),
+        "published_date": new RegExp('(.*?)', 'gi'),
+        "cover_url": new RegExp('(.*?)', 'gi')
+    };
 
 
     // LISTEN FOR MESSAGES
