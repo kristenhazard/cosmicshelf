@@ -80,3 +80,16 @@ body {
   width: 192px;
   height: 202px;
 }
+
+#book-detail {
+  display: none;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  z-index: 100;
+  position: relative;
+  top: -500px;
+  left: 160px;
+  opacity: 0.8;
+  color: black;
+}

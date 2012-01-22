@@ -12,6 +12,21 @@ here is where we will experiment with pub nub communication
         },
         callback : function(message) { // RECEIVED A MESSAGE.
             console.log(message);
+            if(message != "Hi from PubNub.") {
+              //var gestures = message.gestures;
+              var gesture = message.Gestures[0].Gesture;
+              switch(gesture)
+              {
+                case "SwipeToRight":
+                  break;
+                case "SwipeToLeft":
+                  break;
+                case "Circle":
+                  break;
+              }
+            }
+            
+            
         },
         connect  : function() {        // CONNECTION ESTABLISHED.
 
