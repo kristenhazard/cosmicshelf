@@ -36,7 +36,7 @@ $(function () {
       var $bookshelf = $('.bookshelf');
       var $book = $('.book');
       $.each(books_o["books"], function(index, book) { 
-        console.log(index + ': ' + book); 
+        //console.log(index + ': ' + book); 
         $new_div = $(document.createElement("div"))
                     .addClass("book")
                     .attr('data-author', book.author)
@@ -137,8 +137,11 @@ $(function () {
     }
     
     function swipeShelf() {
+      var $bookshelf = $('.bookshelf')
       var $first_five_divs = $('div.book:lt(5)');
       $('.bookshelf').isotope( 'remove', $first_five_divs );
+      $first_five_divs.appendTo($bookshelf);
+      //$('.bookshelf').isotope( 'appended', $first_five_divs );
     }
     
     $('#sort-icon').click(function () {

@@ -331,14 +331,6 @@ var books_o = {
       "cover_url": "http://ecx.images-amazon.com/images/I/514vRyVrQaL._SL160_.jpg"
     },
     {
-      "title":  "To Kill a Mockingbird",
-      "author": "Lee, Harper",
-      "genre":  "Fiction",
-      "published_date": "1960",
-	    "description": "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird. A lawyer's advice to his children as he defends the real mockingbird of Harper Lee's classic novelóa black man charged with the rape of a white girl. Through the young eyes of Scout and Jem Finch, Harper Lee explores with rich humor and unswerving honesty the irrationality of adult attitudes toward race and class in the Deep South of the 1930s. The conscience of a town steeped in prejudice, violence, and hypocrisy is pricked by the stamina and quiet heroism of one man's struggle for justiceóbut the weight of history will only tolerate so much.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029kwv9?maxheight=510&mode=fit&maxwidth=510"
-    },
-    {
       "title":  "A Prayer for Owen Meany",
       "author": "Irving, John",
       "genre":  "Novel",
