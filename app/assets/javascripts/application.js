@@ -13,28 +13,3 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-
-$(document).ready(function() {
-  
-  $('#slide1').iphoneSlide({
-    handler: ".bookshelf_handler",
-    pageHandler: ".bookshelf_page",
-    autoPlay: false,
-    bounce: false
-  });
-  
-  $('#slide2').iphoneSlide({
-    handler: ".bookshelf_handler",
-    pageHandler: ".bookshelf_page",
-    autoPlay: false,
-    bounce: false
-  });
-  
-  $('#slide3').iphoneSlide({
-    handler: ".bookshelf_handler",
-    pageHandler: ".bookshelf_page",
-    autoPlay: false,
-    bounce: false
-  });
-  
-});
