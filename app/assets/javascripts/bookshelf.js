@@ -36,7 +36,7 @@ $(function () {
       var $bookshelf = $('.bookshelf');
       var $book = $('.book');
       $.each(books_o["books"], function(index, book) { 
-        //console.log(index + ': ' + book); 
+        console.log(index + ': ' + book); 
         $new_div = $(document.createElement("div"))
                     .addClass("book")
                     .attr('data-author', book.author)
@@ -123,11 +123,11 @@ $(function () {
 
     function showSearch() {
         $('#search-detail-icon').fadeIn();
-        $('#search-detail-title').text('Title');
-        $('#search-detail-author').text('Author');
-        $('#search-detail-desc').text('Description');
-        $('#search-detail-genre').text('Genre');
-        $('#search-detail-pubdate').text('Publication Date');
+        $('#search-detail-title').text('title');
+        $('#search-detail-author').text('author');
+        $('#search-detail-desc').text('description');
+        $('#search-detail-genre').text('genre');
+        $('#search-detail-pubdate').text('publication date');
         $('#search-detail-termbox').visible = true;
         $('#search-detail').fadeToggle();
     }
@@ -141,7 +141,6 @@ $(function () {
       var $first_five_divs = $('div.book:lt(5)');
       $('.bookshelf').isotope( 'remove', $first_five_divs );
       $first_five_divs.appendTo($bookshelf);
-      //$('.bookshelf').isotope( 'appended', $first_five_divs );
     }
     
     $('#sort-icon').click(function () {
@@ -185,7 +184,7 @@ $(function () {
     });
 
     $('#search-detail-termBox').click(function () {
-        $('#search-detail-termBox-term').text('Kingsolver');
+        $('#search-detail-termBox-term').text('kingsolver');
     });
 
 
