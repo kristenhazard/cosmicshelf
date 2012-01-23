@@ -54,18 +54,24 @@ $(function () {
     }
 
     function displayFilteredBooks(filteredBooks) {
-        $book_rows = $('div.book');
-        $book_rows.each(function (index) {
-            if (filteredBooks.length > index) {
-                $current_img = $(this).find('img')[0];
-                $current_img.src = filteredBooks[index]["cover_url"];
-                $current_img.setAttribute('data-index', index);
-            }
-            else {
-                $current_img = $(this).find('img')[0];
-                $current_img.style.visibility = 'hidden';
-            }
+        var $bookshelf = $('.bookshelf');
+        var $book = $('.book');
+        $('.bookshelf').empty();
+        $.each(filteredBooks, function(index, book) { 
+          //console.log(index + ': ' + book); 
+          $new_div = $(document.createElement("div"))
+                      .addClass("book")
+                      .attr('data-author', book.author)
+                      .attr('data-genre', book.genre)
+                      .attr('data-pubdate', book.published_date)
+                      .attr('data-title', book.title)
+                      .appendTo($bookshelf);
+          $(document.createElement("img"))
+            .attr({ src: book.cover_url, title: book.title })
+            .appendTo($new_div);
         });
+      
+        triggerIsotope();
     }
     
     function defaultSort() {
