@@ -47,8 +47,15 @@ body {
   float: left;
   margin: 0;
   padding: 0;
-  background-image: url('/assets/shelf_background.jpg');
   width: 1024px;
+}
+
+#bookshelf_regular_background {
+    background-image: url('/assets/shelf_background.jpg');
+}
+
+#bookshelf_isotope_background {
+    background-image: url('/assets/shelf_background_isotope.jpg');
 }
 
 .bookshelf_walls {
