@@ -123,6 +123,7 @@ $(function () {
         $('#book-detail-genre').text(book.genre);
         $('#book-detail-pubdate').text(book.published_date);
         $('#book-detail-title').text(book.title);
+        $('#book-detail-description').text(book.description);
         $('#book-detail-cover').find('img')[0].src = book.cover_url;
         $('#book-detail').fadeToggle();
     }
