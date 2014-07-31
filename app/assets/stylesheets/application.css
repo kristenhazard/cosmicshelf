@@ -221,11 +221,11 @@ body {
   text-align: right;
   color: black;
   background-color:rgba(255,255,255,0.9);
-  width: 700px;
-  height: 400px;
+  width: 620px;
+  height: 330px;
   z-index: 200;
-  top: 160px;
-  left: 15%;
+  top: 90px;
+  left: 6%;
   -o-box-shadow:      0px 0px 50px #000;
   -icab-box-shadow:   0px 0px 50px #000;
   -khtml-box-shadow:  0px 0px 50px #000;
@@ -281,8 +281,4 @@ body {
   margin-top:25px;
 }
 
-
-#swipe-test {
-  display: none;
-}
 
