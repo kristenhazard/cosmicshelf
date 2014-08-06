@@ -8,7 +8,6 @@ $(function () {
     var currentSortType = 0;
     
 
-    
     function triggerIsotope() {
       $('.bookshelf').isotope({
         // options
@@ -17,16 +16,16 @@ $(function () {
         getSortData : {
           // ...
           author : function ( $elem ) {
-            return $elem.attr('data-author');
+            return $($elem).attr('data-author');
           },
           genre : function ( $elem ) {
-            return $elem.attr('data-genre');
+            return $($elem).attr('data-genre');
           },
           pubdate : function ( $elem ) {
-            return $elem.attr('data-pubdate');
+            return $($elem).attr('data-pubdate');
           },
           title : function ( $elem ) {
-            return $elem.attr('data-title');
+            return $($elem).attr('data-title');
           }
         }
       });
