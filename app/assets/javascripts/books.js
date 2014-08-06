@@ -7,7 +7,7 @@ var books_o = {
       "genre":  "Science Fiction & Fantasy",
       "published_date": "Sep 14, 2008",
   	  "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. Long ago the districts waged war on the Capitol and were defeated. As part of the surrender terms, each district agreed to send one boy and one girl to appear in an annual televised event called, 'The Hunger Games,' a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she is forced to represent her district in the Games. The terrain, rules, and level of audience participation may change but one thing is constant: kill or be killed.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/05lf46v?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1358275334l/2767052.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Catching Fire",
@@ -16,7 +16,7 @@ var books_o = {
       "published_date": "2009",
 	    "description": "Against all odds, Katniss Everdeen has won the annual Hunger Games with fellow district tribute Peeta Mellark. But it was a victory won by defiance of the Capitol and their harsh rules. Katniss and Peeta should be happy. After all, they have just won for themselves and their families a life of safety and plenty. But there are rumors of rebellion among the subjects, and Katniss and Peeta, to their horror, are the faces of that rebellion. The Capitol is angry. The Capitol wants revenge.",
       "cover_url": 
-"http://img.freebase.com/api/trans/image_thumb/m/05pr8ql?maxheight=510&mode=fit&maxwidth=510"
+      "http://d.gr-assets.com/books/1358273780l/6148028.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Mocking Jay",
@@ -24,7 +24,7 @@ var books_o = {
       "genre":  "Science Fiction & Fantasy",
       "published_date": "2010",
 	    "description": "Against all odds, Katniss Everdeen has survived the Hunger Games twice. But now that she's made it out of the bloody arena alive, she's still not safe. The Capitol is angry. The Capitol wants revenge. Who do they think should pay for the unrest? Katniss. And what's worse, President Snow has made it clear that no one else is safe either. Not Katniss's family, not her friends, not the people of District 12. Powerful and haunting, this thrilling final installment of Suzanne Collins's groundbreaking The Hunger Games trilogy promises to be one of the most talked about books of the year.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/0bc62yj?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1358275419l/7260188.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The Girl with the Dragon Tattoo",
@@ -48,7 +48,7 @@ var books_o = {
       "genre":  "Thriller",
       "published_date": "2007",
 	    "description": "",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/0c04yhr?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1327708260l/6892870.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Half-Blood Prince",
@@ -56,7 +56,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "2005",
 	    "description": "The war against Voldemort is not going well; even the Muggles have been affected. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses. And yet . . . as with all wars, life goes on. Sixth-year students learn to Apparate. Teenagers flirt and fight and fall in love. Harry receives some extraordinary help in Potions from the mysterious Half-Blood Prince. And with Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort -- and thus finds what may be his only vulnerability.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/02cb_2l?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1361039191l/1.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Deathly Hallows",
@@ -64,7 +64,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "2007",
 	    "description": "Readers beware. The brilliant, breathtaking conclusion to J.K. Rowling's spellbinding series is not for the faint of heart--such revelations, battles, and betrayals await in Harry Potter and the Deathly Hallows that no fan will make it to the end unscathed. Luckily, Rowling has prepped loyal readers for the end of her series by doling out increasingly dark and dangerous tales of magic and mystery, shot through with lessons about honor and contempt, love and loss, and right and wrong. Fear not, you will find no spoilers in our review--to tell the plot would ruin the journey, and Harry Potter and the Deathly Hallows is an odyssey the likes of which Rowling's fans have not yet seen, and are not likely to forget. But we would be remiss if we did not offer one small suggestion before you embark on your final adventure with Harry--bring plenty of tissues.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/03tg9k8?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1370023538l/136251.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Goblet of Fire",
@@ -72,7 +72,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "2000",
 	    "description": "Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year, an event involving two other rival schools of magic, and a competition that hasn't happened for a hundred years. He wants to be a normal, fourteen-year-old wizard. But unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be deadly.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/065h575?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1361482611l/6.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Order of the Phoenix",
@@ -80,7 +80,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "2003",
 	    "description": "In his fifth year at Hogwart's, Harry faces challenges at every turn, from the dark threat of He-Who-Must-Not-Be-Named and the unreliability of the government of the magical world to the rise of Ron Weasley as the keeper of the Gryffindor Quidditch Team. Along the way he learns about the strength of his friends, the fierceness of his enemies, and the meaning of sacrifice.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029n3v1?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1387141547l/2.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Philosopher's Stone",
@@ -88,7 +88,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "1997",
 	    "description": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029jx4c?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1361572757l/3.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Prisoner of Azkaban",
@@ -96,7 +96,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "1999",
 	    "description": "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort. Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkban guards heard Black muttering in his sleep, He's at Hogwarts...he's at Hogwarts. Harry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029rgch?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1362278317l/5.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Harry Potter and the Chamber of Secrets",
@@ -104,7 +104,7 @@ var books_o = {
       "genre":  "Fantasy",
       "published_date": "1998",
 	    "description": "The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike. And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockheart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny.",
-    "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029nf5h?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1370043634l/15881.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Steve Jobs: A Biography",
@@ -112,7 +112,7 @@ var books_o = {
       "genre":  "Biography",
       "published_date": "2011",
 	    "description": "Based on more than forty interviews with Jobs conducted over two yearsóas well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleaguesóWalter Isaacson has written a riveting story of the roller-coaster life and searingly intense personality of a creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/0hnjjkh?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1327861368l/11084145.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Einstein: His Life and Universe",
@@ -120,7 +120,7 @@ var books_o = {
       "genre":  "Biography",
       "published_date": "2007",
 	    "description": "Based on newly released personal letters of Einstein, this book explores how an imaginative, impertinent patent clerk -- a struggling father in a difficult marriage who couldn't get a teaching job or a doctorate -- became the mind reader of the creator of the cosmos, the locksmith of the mysteries of the atom and the universe. His success came from questioning conventional wisdom and marveling at mysteries that struck others as mundane. This led him to embrace a morality and politics based on respect for free minds, free spirits, and free individuals.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/04x3hbm?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1328011405l/10884.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Benjamin Franklin: An American Life",
@@ -128,7 +128,7 @@ var books_o = {
       "genre":  "Biography",
       "published_date": "2003",
 	    "description": "In a sweeping narrative that follows Franklin's life from Boston to Philadelphia to London and Paris and back, Isaacson chronicles the adventures of the spunky runaway apprentice who became, during his 84-year life, America's best writer, inventor, media baron, scientist, diplomat, and business strategist, as well as one of its most practical and ingenious political leaders. He explores the wit behind Poor Richard's Almanac and the wisdom behind the Declaration of Independence, the new nation's alliance with France, the treaty that ended the Revolution, and the compromises that created a near-perfect Constitution.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/04x3hh0?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1397772877l/10883.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "On Writing: A Memoir of the Craft",
@@ -136,15 +136,15 @@ var books_o = {
       "genre":  "Autobiography",
       "published_date": "2000",
 	    "description": "ìLong live the Kingî hailed Entertainment Weekly upon publication of Stephen Kingís On Writing. Part memoir, part master class by one of the bestselling authors of all time, this superb volume is a revealing and practical view of the writerís craft, comprising the basic tools of the trade every writer must have. Kingís advice is grounded in his vivid memories from childhood through his emergence as a writer, from his struggling early career to his widely reported, near-fatal accident in 1999óand how the inextricable link between writing and living spurred his recovery. Brilliantly structured, friendly and inspiring, On Writing will empower and entertain everyone who reads itófans, writers, and anyone who loves a great story well told.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029kgkz?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1388192403l/10569.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
-      "title":  "American Gods, Neil Gaiman",
+      "title":  "American Gods",
       "author": "Gaiman, Neil",
       "genre":  "Science Fiction",
       "published_date": "2001",
 	    "description": "Life as Wednesdayís bodyguard, driver, and errand boy is far more interesting and dangerous than Shadow ever imaginedóit is a job that takes him on a dark and strange road trip and introduces him to a host of eccentric characters whose fates are mysteriously intertwined with his own. Along the way Shadow will learn that the past never dies; that everyone, including his beloved Laura, harbors secrets; and that dreams, totems, legends, and myths are more real than we know. Ultimately, he will discover that beneath the placid surface of everyday life a storm is brewingóan epic war for the very soul of Americaóand that he is standing squarely in its path.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029p8fg?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1258417001l/4407.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Just Kids",
@@ -152,7 +152,7 @@ var books_o = {
       "genre":  "Memoir",
       "published_date": "2010",
 	    "description": "Just Kids is a memoir by Patti Smith, published on January 19, 2010. In the book, Smith documents her relationship with artist Robert Mapplethorpe. Just Kids won the National Book Award for nonfiction in 2010. It was a Publishers Weeklyís Top 10 Best Books (2010), ALA Notable Book (2011), Los Angeles Times Book Prize finalist (Current Interest, 2010), New York Times bestseller (Nonfiction, 2010), and National Book Critics Circle Award finalist (Autobiography/Memoir, 2010). Just Kids was featured on the January 19, 2010, episode of Fresh Air, with Smith being interviewed by Terry Gross. Just Kids was also featured on KQED's Forum with Michael Krasny on January 28, 2010. It was the Book of the Week on BBC Radio 4 from 1-5 March 2010, with Smith reading five 15 minute excerpts from her book.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/0g5148p?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1259762407l/341879.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The History of Love",
@@ -160,7 +160,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "2005",
 	    "description": "Leo Gursky is just about surviving, tapping his radiator each evening to let his upstairs neighbor know he's still alive. But life wasn't always like this: sixty years ago, in the Polish village where he was born, Leo fell in love and wrote a book. And though Leo doesn't know it, that book survived, inspiring fabulous circumstances, even love. Fourteen-year-old Alma was named after a character in that very book. And although she has her hands fullókeeping track of her brother, Bird (who thinks he might be the Messiah), and taking copious notes on How to Survive in the Wildóshe undertakes an adventure to find her namesake and save her family. With consummate, spellbinding skill, Nicole Krauss gradually draws together their stories.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/03r0ffq?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1327911009l/3867.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The Lacuna",
@@ -176,7 +176,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "1998",
 	    "description": "The Poisonwood Bible is a story told by the wife and four daughters of Nathan Price, a fierce, evangelical Baptist who takes his family and mission to the Belgian Congo in 1959. They carry with them everything they believe they will need from home, but soon find that all of itófrom garden seeds to Scriptureóis calamitously transformed on African soil. What follows is a suspenseful epic of one family's tragic undoing and remarkable reconstruction over the course of three decades in postcolonial Africa.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/02b5z6s?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1327881914l/7244.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The Bean Trees",
@@ -184,7 +184,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "1988",
 	    "description": "Clear-eyed and spirited, Taylor Greer grew up poor in rural Kentucky with the goals of avoiding pregnancy and getting away. But when she heads west with high hopes and a barely functional car, she meets the human condition head-on. By the time Taylor arrives in Tucson, Arizona, she has acquired a completely unexpected child, a three-year-old American Indian girl named Turtle, and must somehow come to terms with both motherhood and the necessity for putting down roots. Hers is a story about love and friendship, abandonment and belonging, and the discovery of surprising resources in apparently empty places.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/02bl977?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1362981087l/30868.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Their Eyes Were Watching God",
@@ -192,7 +192,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "1937",
 	    "description": "One of the most important works of twentieth-century American literature, Zora Neale Hurston's beloved 1937 classic, Their Eyes Were Watching God, is an enduring Southern love story sparkling with wit, beauty, and heartfelt wisdom. Told in the captivating voice of a woman who refuses to live in sorrow, bitterness, fear, or foolish romantic dreams, it is the story of fair-skinned, fiercely independent Janie Crawford, and her evolving selfhood through three marriages and a life marked by poverty, trials, and purpose. A true literary wonder, Hurston's masterwork remains as relevant and affecting today as when it was first published -- perhaps the most widely read and highly regarded novel in the entire canon of African American literature.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/029r3l8?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1368072803l/37415.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The Lean Startup",
@@ -263,7 +263,7 @@ var books_o = {
       "author": "Morrison, Grant",
       "genre":  "Graphic Novels",
       "published_date": "2005",
-	 "description": "In this groundbreaking, painted graphic novel, the inmates of Arkham Asylum have taken over Gothams detention center for the criminally insane on April Fools Day, demanding Batman in exchange for their hostages.Accepting their demented challenge, Batman is forced to live and endure the personal hells of the Joker, Scarecrow, Poison Ivy, Two-Face and many other sworn enemies in order to save the innocents and retake the prison.During his run through this absurd gauntlet, the Dark Knights own sanity is placed in jeopardy.This special anniversary edition trade paperback also reproduces the original script with annotations by Morrison and editor Karen Berger.",
+	    "description": "In this groundbreaking, painted graphic novel, the inmates of Arkham Asylum have taken over Gothams detention center for the criminally insane on April Fools Day, demanding Batman in exchange for their hostages.Accepting their demented challenge, Batman is forced to live and endure the personal hells of the Joker, Scarecrow, Poison Ivy, Two-Face and many other sworn enemies in order to save the innocents and retake the prison.During his run through this absurd gauntlet, the Dark Knights own sanity is placed in jeopardy.This special anniversary edition trade paperback also reproduces the original script with annotations by Morrison and editor Karen Berger.",
       "cover_url": "http://ecx.images-amazon.com/images/I/516qcsJtdOL._SL160_.jpg"
     },
     {
@@ -288,7 +288,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "1998",
 	    "description": "Jeanette Wintersonís novels have established her as one of the most important young writers in world literature. The Passion is perhaps her most highly acclaimed work, a modern classic that confirms her special claim on the novel. Set during the tumultuous years of the Napoleonic Wars, The Passion intertwines the destinies of two remarkable people: Henri, a simple French soldier, who follows Napoleon from glory to Russian ruin; and Villanelle, the red-haired, web-footed daughter of a Venetian boatman, whose husband has gambled away her heart. In Veniceís compound of carnival, chance, and darkness, the pair meet their singular destiny. In her unique and mesmerizing voice, Winterson blends reality with fantasy, dream, and imagination to weave a hypnotic tale with stunning effects.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/04tfbmq?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1388187737l/15047.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Runaways Volume  4: True Believers",
@@ -336,7 +336,7 @@ var books_o = {
       "genre":  "Novel",
       "published_date": "1989",
 	    "description": "In the summer of 1953, two eleven-year-old boysóbest friendsóare playing in a Little League baseball game in Gravesend, New Hampshire. One of the boys hits a foul ball that kills the other boyís mother. The boy who hits the ball doesnít believe in accidents; Owen Meany believes he is Godís instrument. What happens to Owen, after that 1953 foul ball, is extraordinary and terrifying.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/03st34v?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1260470010l/4473.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The House of the Spirits",
@@ -344,7 +344,7 @@ var books_o = {
       "genre":  "Magic Realism",
       "published_date": "1982",
 	    "description": "NEW YORK TIMES BESTSELLER. In one of the most important and beloved Latin American works of the twentieth century, Isabel Allende weaves a luminous tapestry of three generations of the Trueba family, revealing both triumphs and tragedies. Here is patriarch Esteban, whose wild desires and political machinations are tempered only by his love for his ethereal wife, Clara, a woman touched by an otherworldly hand. Their daughter, Blanca, whose forbidden love for a man Esteban has deemed unworthy infuriates her father, yet will produce his greatest joy: his granddaughter Alba, a beautiful, ambitious girl who will lead the family and their country into a revolutionary future. The House of the Spirits is an enthralling saga that spans decades and lives, twining the personal and the political into an epic novel of love, magic, and fate.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/02bf2wy?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1358615501l/9328.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "The Alchemist",
@@ -352,7 +352,7 @@ var books_o = {
       "genre":  "Adventure novel",
       "published_date": "1988",
 	    "description": "The Alchemist is the magical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure as extravagant as any ever found. From his home in Spain he journeys to the markets of Tangiers and across the Egyptian desert to a fateful encounter with the alchemist.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/02bf0px?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1287827991l/865.jpg?maxheight=510&mode=fit&maxwidth=510"
     },
     {
       "title":  "Geek Love",
@@ -360,7 +360,7 @@ var books_o = {
       "genre":  "Fiction",
       "published_date": "1989",
 	    "description": "Geek Love is the story of the Binewskis, a carny family whose mater- and paterfamilias set outñwith the help of amphetamine, arsenic, and radioisotopesñto breed their own exhibit of human oddities. Thereís Arturo the Aquaboy, who has flippers for limbs and a megalomaniac ambition worthy of Genghis Khan . . . Iphy and Elly, the lissome Siamese twins . . . albino hunchback Oly, and the outwardly normal Chick, whose mysterious gifts make him the familyís most preciousñand dangerousñasset. As the Binewskis take their act across the backwaters of the U.S., inspiring fanatical devotion and murderous revulsion; as its members conduct their own Machiavellian version of sibling rivalry, Geek Love throws its sulfurous light on our notions of the freakish and the normal, the beautiful and the ugly, the holy and the obscene. Family values will never be the same.",
-      "cover_url": "http://img.freebase.com/api/trans/image_thumb/m/04sr0zz?maxheight=510&mode=fit&maxwidth=510"
+      "cover_url": "http://d.gr-assets.com/books/1366699063l/13872.jpg?maxheight=510&mode=fit&maxwidth=510"
     }
 
   ]
