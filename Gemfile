@@ -24,6 +24,12 @@ end
 
 gem 'jquery-rails'
 
+gem 'goodreads'
+
+gem 'oauth'
+
+gem 'json'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

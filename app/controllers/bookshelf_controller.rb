@@ -3,6 +3,5 @@ class BookshelfController < ApplicationController
   end
   
   def show
-    
   end
 end

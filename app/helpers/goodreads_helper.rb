@@ -1,0 +1,2 @@
+module GoodreadsHelper
+end

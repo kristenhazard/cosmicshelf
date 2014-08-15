@@ -4,6 +4,9 @@ Cosmicshelf::Application.routes.draw do
   get "bookshelf/index"
   get "bookshelf/show"
   root :to => 'bookshelf#show'
+
+  post "goodreads/authorize"
+  post "goodreads/populate_shelf"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

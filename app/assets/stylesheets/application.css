@@ -281,4 +281,6 @@ body {
   margin-top:25px;
 }
 
-
+#auth-box {
+  display: none;
+}
