@@ -2,6 +2,6 @@ class BookshelfController < ApplicationController
   def index
   end
   
-  def show
+  def oldindex
   end
 end

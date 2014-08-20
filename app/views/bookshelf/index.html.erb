@@ -3,20 +3,25 @@
 
 <h1>INDEX</h1>
 
+<div id="auth-box">
+  <h3>We've noticed that you haven't connected your Goodreads library with the CosmicShelf!</h3>
+  <h3><%= link_to "Click here to authorize your Goodreads account.", goodreads_authorize_path, :method => "post" %></h3>
+  <h3>Until then, we will display a sample library.</h3> 
+</div>
+
 <div>
   <div id="book-detail">
-    <div id="book-detail-cover">
-      <%= image_tag "" %>
-    </div>
+    <div id="book-detail-cover"></div>
     <div id="book-detail-title"></div>
     <div id="book-detail-author"></div>
     <div id="book-detail-desc"></div>
     <div id="book-detail-genre"></div>
     <div id="book-detail-pubdate"></div>
+    <div id="book-detail-description"></div>
   </div>
   <div id="search-detail">
     <div id="search-detail-icon">
-      <%= image_tag "icon_search_telescope_black_transparent.png" %>
+      <%= image_tag "icon_search_telescope_black_transparent.png", :id  => "search-detail-icon" %>
     </div>
     <div id="search-detail-title"></div>
     <div id="search-detail-author"></div>
@@ -30,45 +35,15 @@
 </div>
 
 <div class="container">
-  <div class="bookshelf" id="bookshelf_regular_background">
-    <div class="bookshelf_walls">
-      <div class="bookshelf_row">
-        <div class="book_end"></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book_end"></div>
-      </div>
-      <div class="bookshelf_row">
-        <div class="book_end"></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book_end"></div>
-      </div>
-      <div class="bookshelf_row">
-        <div class="book_end"></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book"><%= image_tag "" %></div>
-        <div class="book_end"></div>
-      </div>
-      <!--<div class="bookshelf_under_shadow"></div>-->
-    </div>
-  </div>
+  <div class="bookshelf" id="bookshelf_isotope_background"></div>
   <div class="control_panel">
     <%= image_tag "icon_search_telescope.png", :class => "control_panel_trailing_space", :id => "search-icon" %><br />
     <%= image_tag "icon_show_book_planet.png", :id => "show-book", :class => "control_panel_trailing_space" %><br />
+    <%= image_tag "icon_swipe_comet.png", :id => "swipe-test", :class => "control_panel_trailing_space" %><br />
     <%= image_tag "icon_sort_galaxy.png", :id => "sort-icon", :class => "control_panel_trailing_space" %><br />
     <%= image_tag "icon_sort_solar_system_author_selected.png", :id => "sort-icon-author" %><br />
+    <%= image_tag "icon_sort_solar_system_title.png", :id => "sort-icon-title" %><br />
     <%= image_tag "icon_sort_solar_system_genre.png", :id => "sort-icon-genre" %><br />
-    <%= image_tag "icon_sort_solar_system_published.png", :id => "sort-icon-pubdate" %><br />
-    <%= image_tag "icon_sort_solar_system_title.png", :id => "sort-icon-title" %>
+    <%= image_tag "icon_sort_solar_system_published.png", :id => "sort-icon-pubdate" %>
   </div>
 </div>

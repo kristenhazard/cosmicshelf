@@ -1,0 +1,74 @@
+<div pub-key="pub-31ccbcae-5e76-4eaa-82e4-70f61ba3aa41" sub-key="sub-d87710eb-4468-11e1-884a-cda464106799" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
+<script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
+
+<h1>INDEX</h1>
+
+<div>
+  <div id="book-detail">
+    <div id="book-detail-cover">
+      <%= image_tag "" %>
+    </div>
+    <div id="book-detail-title"></div>
+    <div id="book-detail-author"></div>
+    <div id="book-detail-desc"></div>
+    <div id="book-detail-genre"></div>
+    <div id="book-detail-pubdate"></div>
+  </div>
+  <div id="search-detail">
+    <div id="search-detail-icon">
+      <%= image_tag "icon_search_telescope_black_transparent.png" %>
+    </div>
+    <div id="search-detail-title"></div>
+    <div id="search-detail-author"></div>
+    <div id="search-detail-desc"></div>
+    <div id="search-detail-genre"></div>
+    <div id="search-detail-pubdate"></div>
+    <div id="search-detail-termBox">
+      <div id="search-detail-termBox-term"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="bookshelf" id="bookshelf_regular_background">
+    <div class="bookshelf_walls">
+      <div class="bookshelf_row">
+        <div class="book_end"></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book_end"></div>
+      </div>
+      <div class="bookshelf_row">
+        <div class="book_end"></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book_end"></div>
+      </div>
+      <div class="bookshelf_row">
+        <div class="book_end"></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book"><%= image_tag "" %></div>
+        <div class="book_end"></div>
+      </div>
+      <!--<div class="bookshelf_under_shadow"></div>-->
+    </div>
+  </div>
+  <div class="control_panel">
+    <%= image_tag "icon_search_telescope.png", :class => "control_panel_trailing_space", :id => "search-icon" %><br />
+    <%= image_tag "icon_show_book_planet.png", :id => "show-book", :class => "control_panel_trailing_space" %><br />
+    <%= image_tag "icon_sort_galaxy.png", :id => "sort-icon", :class => "control_panel_trailing_space" %><br />
+    <%= image_tag "icon_sort_solar_system_author_selected.png", :id => "sort-icon-author" %><br />
+    <%= image_tag "icon_sort_solar_system_genre.png", :id => "sort-icon-genre" %><br />
+    <%= image_tag "icon_sort_solar_system_published.png", :id => "sort-icon-pubdate" %><br />
+    <%= image_tag "icon_sort_solar_system_title.png", :id => "sort-icon-title" %>
+  </div>
+</div>

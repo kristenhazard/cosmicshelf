@@ -24,7 +24,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 800px;
+  width: 1108px;
 }
 
 .control_panel {
@@ -55,8 +55,8 @@ body {
 }
 
 #bookshelf_isotope_background {
-  width: 675px;
-  padding-left: 32px;
+  width: 976px;
+  padding-left: 48px;
   background-image: url('/assets/shelf_background_isotope.jpg');
 }
 

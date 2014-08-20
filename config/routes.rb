@@ -2,8 +2,8 @@ Cosmicshelf::Application.routes.draw do
   get "pubnubexperiment/index"
 
   get "bookshelf/index"
-  get "bookshelf/show"
-  root :to => 'bookshelf#show'
+  get "bookshelf/old_index"
+  root :to => 'bookshelf#index'
 
   post "goodreads/authorize"
   post "goodreads/populate_shelf"

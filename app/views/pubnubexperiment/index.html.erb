@@ -1,42 +1,35 @@
-here is where we will experiment with pub nub communication
-
+<!-- here is where we will experiment with pub nub communication -->
 <div pub-key="pub-31ccbcae-5e76-4eaa-82e4-70f61ba3aa41" sub-key="sub-d87710eb-4468-11e1-884a-cda464106799" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
 <script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
 <script>(function(){
-
-    // LISTEN FOR MESSAGES
-    PUBNUB.subscribe({
-        channel  : "cosmic_book_shelf",      // CONNECT TO THIS CHANNEL.
-        error    : function() {        // LOST CONNECTION (auto reconnects)
-            alert("Connection Lost. Will auto-reconnect when Online.")
-        },
-        callback : function(message) { // RECEIVED A MESSAGE.
-            console.log(message);
-            if(message != "Hi from PubNub.") {
-              //var gestures = message.gestures;
-              var gesture = message.Gestures[0].Gesture;
-              switch(gesture)
-              {
-                case "SwipeToRight":
-                  break;
-                case "SwipeToLeft":
-                  break;
-                case "Circle":
-                  break;
-              }
-            }
-            
-            
-        },
-        connect  : function() {        // CONNECTION ESTABLISHED.
-
-            // SEND MESSAGE
-            PUBNUB.publish({
-                channel : "cosmic_book_shelf",
-                message : "Hi from PubNub."
-            })
-
+  // LISTEN FOR MESSAGES
+  PUBNUB.subscribe({
+    channel : "cosmic_book_shelf", // CONNECT TO THIS CHANNEL.
+    error : function() { // LOST CONNECTION (auto reconnects)
+      alert("Connection Lost. Will auto-reconnect when Online.")
+    },
+    callback : function(message) { // RECEIVED A MESSAGE.
+      console.log(message);
+      if(message != "Hi from PubNub.") {
+        //var gestures = message.gestures;
+        var gesture = message.Gestures[0].Gesture;
+        switch(gesture) {
+        case "SwipeToRight":
+          break;
+        case "SwipeToLeft":
+          break;
+        case "Circle":
+          break;
         }
-    })
-
-})();</script>
+      }
+    },
+    connect : function() { // CONNECTION ESTABLISHED.
+      // SEND MESSAGE
+      PUBNUB.publish({
+        channel : "cosmic_book_shelf",
+        message : "Hi from PubNub."
+      })
+    }
+  })
+})();
+</script>

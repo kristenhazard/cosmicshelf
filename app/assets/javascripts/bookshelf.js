@@ -14,8 +14,8 @@ $(function () {
     }
 
     // onload sort by author and display books
-    defaultSort();
-    displayBooks();
+    displayBooks(books_we_use["books"]);
+    sortAuthor();
     
     // create array for the sort types.
     var sortTypes = new Array(sortTitle, sortGenre, sortPubDate, sortAuthor);
@@ -23,11 +23,9 @@ $(function () {
 
     function triggerIsotope() {
       $('.bookshelf').isotope({
-        // options
         itemSelector : '.book',
         layoutMode : 'fitRows',
         getSortData : {
-          // ...
           author : function ( $elem ) {
             return $($elem).attr('data-author');
           },
@@ -44,10 +42,10 @@ $(function () {
       });
     }
 
-    function displayBooks() {
+    function displayBooks(books) {
       var $bookshelf = $('.bookshelf');
       var $book = $('.book');
-      $.each(books_we_use["books"], function(index, book) { 
+      $.each(books, function(index, book) { 
         console.log(index + ': ' + book); 
         $new_div = $(document.createElement("div"))
                     .addClass("book")
@@ -60,31 +58,10 @@ $(function () {
           .attr({ src: book.cover_url, title: book.title })
           .appendTo($new_div);
       });
-      
       triggerIsotope();
     }
 
-    function displayFilteredBooks(filteredBooks) {
-        var $bookshelf = $('.bookshelf');
-        var $book = $('.book');
-        $('.bookshelf').empty();
-        $.each(filteredBooks, function(index, book) { 
-          //console.log(index + ': ' + book); 
-          $new_div = $(document.createElement("div"))
-                      .addClass("book")
-                      .attr('data-author', book.author)
-                      .attr('data-genre', book.genre)
-                      .attr('data-pubdate', book.published_date)
-                      .attr('data-title', book.title)
-                      .appendTo($bookshelf);
-          $(document.createElement("img"))
-            .attr({ src: book.cover_url, title: book.title })
-            .appendTo($new_div);
-        });
-      
-        triggerIsotope();
-    }
-    
+    /*
     function defaultSort() {
       books_we_use.books.sort(function (a, b) {
         a = a.author,
@@ -92,6 +69,7 @@ $(function () {
         return a.localeCompare(b);
       });
     }
+    */
 
     function sortAuthor() {
       $('.bookshelf').isotope({ sortBy : "author" });
@@ -204,13 +182,12 @@ $(function () {
       $('#search-detail-termBox-term').text('kingsolver');
     });
 
-
     // search
     $('#search-detail-icon').click(function () {
       $('#search-detail').fadeOut('slow');
       $('#search-detail-termBox-term').text('');
       var booksFiltered = filterByAuthor(books_we_use, filterForAuthor);
-      displayFilteredBooks(booksFiltered);
+      displayBooks(booksFiltered);
     });
 
     function filterByAuthor(allBooks, filterOfAuthor) {
@@ -232,8 +209,8 @@ $(function () {
 
     // LISTEN FOR MESSAGES
     PUBNUB.subscribe({
-      channel: "cosmic_book_shelf",      // CONNECT TO THIS CHANNEL.
-      error: function () {        // LOST CONNECTION (auto reconnects)
+      channel: "cosmic_book_shelf", // CONNECT TO THIS CHANNEL.
+      error: function () { // LOST CONNECTION (auto reconnects)
         alert("Connection Lost. Will auto-reconnect when Online.")
       },
       callback: function (message) { // RECEIVED A MESSAGE.
@@ -254,7 +231,7 @@ $(function () {
           }
         }
       },
-      connect: function () {        // CONNECTION ESTABLISHED.
+      connect: function () { // CONNECTION ESTABLISHED.
         // SEND MESSAGE
         PUBNUB.publish({
           channel: "cosmic_book_shelf",
